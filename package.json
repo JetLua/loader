@@ -1,0 +1,28 @@
+{
+  "name": "@iro/loader",
+  "version": "1.0.1",
+  "type": "module",
+  "module": "index.js",
+  "description": "",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "publish": "pnpm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "resolve": "^1.22.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "peerDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
